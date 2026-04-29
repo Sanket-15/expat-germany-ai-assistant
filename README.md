@@ -145,7 +145,7 @@ streamlit run streamlit_app.py
 
 ### Example question and answer
 
-![Example question and answer](screenshots/streamlit_ui_demo.png)
+![Example question and answer](screenshots/streamlit_ui__demo.png)
 
 ## Limitations
 
