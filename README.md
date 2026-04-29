@@ -145,7 +145,35 @@ streamlit run streamlit_app.py
 
 ### Example question and answer
 
-![Example question and answer](screenshots/streamlit_ui__demo.png)
+![Example question and answer](screenshots/streamlit_ui_demo.png)
+
+## Evaluation
+
+This project includes a lightweight evaluation setup for checking RAG behavior without any paid external evaluation framework.
+
+See [EVALUATION_SUMMARY.md](EVALUATION_SUMMARY.md) for details.
+
+[eval_runner.py](eval_runner.py) runs standard questions from [evaluation_questions.md](evaluation_questions.md) through the assistant and saves results to:
+
+```text
+eval_results/eval_results.csv
+```
+
+The evaluation checks:
+
+- source grounding for factual RAG answers
+- whether translation, sentence explanation, drafting, greetings, and small talk bypass document retrieval
+- English/German language behavior
+- safe fallback behavior for high-risk or out-of-scope questions
+- possible hallucination risk when factual answers are long but have no sources
+
+Translation and drafting tasks intentionally bypass document retrieval because they are based on the user-provided text, not the document knowledge base.
+
+Run the evaluation with:
+
+```bash
+python eval_runner.py
+```
 
 ## Limitations
 

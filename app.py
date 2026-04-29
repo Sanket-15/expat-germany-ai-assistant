@@ -1,4 +1,4 @@
-import os
+﻿import os
 import re
 
 from dotenv import load_dotenv
@@ -22,13 +22,59 @@ IMPORTANT_NOTE_DE = (
 INVESTING_NOTE_EN = "Important note: This is general information, not financial advice."
 INVESTING_NOTE_DE = "Wichtiger Hinweis: Dies ist eine allgemeine Information, keine Finanzberatung."
 
+SAFE_LEGAL_FALLBACK = (
+    "I can\u2019t provide a legal argument for court. I can help you understand a "
+    "refusal letter, summarize the reason given, or draft a polite message "
+    "asking the authority what documents are missing. For legal action, please "
+    "contact a qualified immigration lawyer."
+)
+
+SAFE_LEGAL_FALLBACK_DE = (
+    "Ich kann kein juristisches Argument f\u00fcr ein Gerichtsverfahren liefern. "
+    "Ich kann dir helfen, ein Ablehnungsschreiben zu verstehen, den genannten "
+    "Grund zusammenzufassen oder eine h\u00f6fliche Nachricht an die Beh\u00f6rde zu "
+    "formulieren. F\u00fcr rechtliche Schritte kontaktiere bitte eine qualifizierte "
+    "Anw\u00e4ltin oder einen qualifizierten Anwalt f\u00fcr Migrationsrecht."
+)
+
+SAFE_FINANCE_FALLBACK = (
+    "I can\u2019t recommend specific stocks or financial investments. This assistant "
+    "is designed to answer questions from saved expat-related documents. For "
+    "investment decisions, please speak with a qualified financial adviser."
+)
+
+SAFE_FINANCE_FALLBACK_DE = (
+    "Ich kann keine konkreten Aktien oder Finanzanlagen empfehlen. Dieser "
+    "Assistent beantwortet Fragen auf Basis gespeicherter Expat-Dokumente. "
+    "F\u00fcr Anlageentscheidungen sprich bitte mit einer qualifizierten "
+    "Finanzberaterin oder einem qualifizierten Finanzberater."
+)
+
+SAFE_MEDICAL_FALLBACK = (
+    "I can\u2019t provide personal medical advice. I can explain general information "
+    "from saved documents, but for symptoms, treatment, pregnancy concerns, or "
+    "urgent health questions, please contact a doctor, midwife, emergency "
+    "service, or your health insurer."
+)
+
+SAFE_MEDICAL_FALLBACK_DE = (
+    "Ich kann keine pers\u00f6nliche medizinische Beratung geben. Ich kann allgemeine "
+    "Informationen aus gespeicherten Dokumenten erkl\u00e4ren, aber bei Symptomen, "
+    "Behandlung, Schwangerschaftsfragen oder dringenden Gesundheitsfragen "
+    "kontaktiere bitte eine \u00c4rztin, einen Arzt, eine Hebamme, den Notdienst "
+    "oder deine Krankenkasse."
+)
+
 SYSTEM_INSTRUCTION = (
     "You are a helpful assistant for expats in Germany. "
     "You sound friendly, calm, practical, and expert-like. "
     "Use simple language and start answers naturally. "
-    "Understand English and German. Reply in the user's language by default, "
-    "unless the user explicitly asks for another language. "
+    "Detect whether the user is writing mainly in English or German. "
+    "Reply in the same language by default unless the user explicitly asks "
+    "for a different language. "
     "In German, use polite and clear German. For formal German replies, use Sie. "
+    "For translation tasks, answer in the requested target language. "
+    "For German drafting requested in English, write the German draft and add only a brief English explanation. "
     "You help with visa, jobs, PR, and general life questions. "
     "For factual expat answers, answer only from the provided document context. "
     "For translation or reply-writing tasks, use only the user's provided text and instructions. "
@@ -135,34 +181,11 @@ GERMAN_HELP_INPUTS = {
 }
 
 
-def get_response_language(user_input):
+def get_user_language(user_input):
     text = user_input.lower()
 
-    english_requests = (
-        "answer in english",
-        "reply in english",
-        "explain this in english",
-        "in english",
-        "auf englisch",
-        "antworte auf englisch",
-        "bitte antworte auf englisch",
-        "erkl\u00e4re das auf englisch",
-    )
-    german_requests = (
-        "answer in german",
-        "reply in german",
-        "explain this in german",
-        "in german",
-        "auf deutsch",
-        "antworte auf deutsch",
-        "bitte antworte auf deutsch",
-        "erkl\u00e4re das auf deutsch",
-    )
-
-    if any(phrase in text for phrase in english_requests):
-        return "German" if "in german" in text or "auf deutsch" in text else "English"
-
-    if any(phrase in text for phrase in german_requests):
+    german_chars = ("ä", "ö", "ü", "ß")
+    if any(char in text for char in german_chars):
         return "German"
 
     german_markers = (
@@ -182,19 +205,58 @@ def get_response_language(user_input):
         " bitte",
         " du ",
         " sie ",
-        " f\u00fcr ",
-        " \u00fcber ",
-        " k\u00f6nnen ",
+        " für ",
+        " über ",
+        " können ",
         " arbeits",
     )
-    german_chars = ("ä", "ö", "ü", "ß")
-
-    if any(char in text for char in german_chars):
-        return "German"
 
     padded = f" {text} "
     german_score = sum(marker in padded for marker in german_markers)
     return "German" if german_score >= 2 else "English"
+
+
+def get_response_language(user_input):
+    text = user_input.lower()
+
+    english_requests = (
+        "answer in english",
+        "reply in english",
+        "explain this in english",
+        "translate into english",
+        "translate this into english",
+        "in english",
+        "auf englisch",
+        "antworte auf englisch",
+        "bitte antworte auf englisch",
+        "erkläre das auf englisch",
+        "übersetze ins englische",
+        "übersetze auf englisch",
+    )
+    german_requests = (
+        "answer in german",
+        "reply in german",
+        "explain this in german",
+        "translate into german",
+        "translate this into german",
+        "draft a german",
+        "german reply",
+        "write a german",
+        "auf deutsch",
+        "antworte auf deutsch",
+        "bitte antworte auf deutsch",
+        "erkläre das auf deutsch",
+        "übersetze ins deutsche",
+        "übersetze auf deutsch",
+    )
+
+    if any(phrase in text for phrase in english_requests):
+        return "English"
+
+    if any(phrase in text for phrase in german_requests):
+        return "German"
+
+    return get_user_language(user_input)
 
 
 def is_live_weather_question(user_input):
@@ -299,6 +361,184 @@ def is_language_task(user_input):
     )
 
 
+def is_translation_or_short_explanation(user_input):
+    text = user_input.lower().strip()
+    translation_markers = (
+        "translate this",
+        "translate into",
+        "translate to",
+        "\u00fcbersetze",
+        "uebersetze",
+    )
+    explanation_markers = (
+        "explain this in english",
+        "explain this in german",
+        "what does this mean",
+        "was bedeutet",
+        "erkl\u00e4re das",
+    )
+    has_quoted_text = '"' in user_input or "'" in user_input or ":" in user_input
+
+    return any(marker in text for marker in translation_markers) or (
+        has_quoted_text and any(marker in text for marker in explanation_markers)
+    )
+
+
+def is_drafting_task(user_input):
+    text = user_input.lower()
+    drafting_markers = (
+        "draft",
+        "write a reply",
+        "write an answer",
+        "reply to",
+        "formuliere",
+        "schreibe eine antwort",
+        "antwortschreiben",
+    )
+    return any(marker in text for marker in drafting_markers)
+
+
+def is_high_risk_unsafe_question(user_input):
+    text = user_input.lower()
+
+    legal_risk = (
+        any(word in text for word in ("court", "lawsuit", "legal argument", "sue", "appeal", "anwalt", "gericht", "klage", "widerspruch"))
+        and any(word in text for word in ("visa", "denied", "refusal", "rejected", "abgelehnt", "ablehnung"))
+    )
+    financial_risk = any(
+        phrase in text
+        for phrase in (
+            "which stock should i buy",
+            "what stock should i buy",
+            "should i buy",
+            "best stock",
+            "buy this month",
+            "welche aktie",
+            "aktie kaufen",
+            "anlage empfehlen",
+        )
+    )
+    medical_risk = any(
+        phrase in text
+        for phrase in (
+            "diagnose",
+            "treatment should i",
+            "which medicine",
+            "what medicine",
+            "medical advice",
+            "symptoms mean",
+            "welche medizin",
+            "behandlung",
+        )
+    )
+
+    if legal_risk:
+        return "legal"
+    if financial_risk:
+        return "finance"
+    if medical_risk:
+        return "medical"
+
+    return None
+
+
+def get_safe_fallback(user_input):
+    risk_type = is_high_risk_unsafe_question(user_input)
+    response_language = get_response_language(user_input)
+
+    if risk_type == "legal":
+        return SAFE_LEGAL_FALLBACK_DE if response_language == "German" else SAFE_LEGAL_FALLBACK
+    if risk_type == "finance":
+        return SAFE_FINANCE_FALLBACK_DE if response_language == "German" else SAFE_FINANCE_FALLBACK
+    if risk_type == "medical":
+        return SAFE_MEDICAL_FALLBACK_DE if response_language == "German" else SAFE_MEDICAL_FALLBACK
+
+    return None
+
+
+def get_detected_intent(user_input):
+    if get_simple_response(user_input):
+        return "local_small_talk_or_guardrail"
+    if get_safe_fallback(user_input):
+        return "high_risk_safe_fallback"
+    if is_translation_or_short_explanation(user_input):
+        return "translation_or_explanation"
+    if is_drafting_task(user_input):
+        return "drafting"
+    if is_language_task(user_input):
+        return "language_task"
+    return "rag_factual"
+
+
+TOPIC_KEYWORDS = {
+    "anmeldung": {"anmeldung", "registration", "buergeramt", "bürgeramt", "wohnungsgeber", "register"},
+    "tax_id": {"tax", "steuer", "steuer-id", "identification", "bzst", "tax_id"},
+    "blue_card": {"blue", "card", "blaue", "karte", "eu_blue_card", "residence"},
+    "settlement": {"settlement", "permanent", "pr", "niederlassung", "residence"},
+    "kindergeld": {"kindergeld", "child", "benefit", "family", "elterngeld"},
+    "health": {"health", "insurance", "krankenversicherung", "krankenkasse", "medical"},
+    "housing": {"housing", "renting", "apartment", "rent", "tenant", "landlord", "miete", "wohnung"},
+    "jobs": {"job", "work", "employment", "arbeit", "employer", "contract"},
+    "rundfunk": {"rundfunk", "radio", "beitrag"},
+}
+
+
+def normalize_for_matching(text):
+    return set(re.findall(r"[a-zA-Z\u00c4\u00d6\u00dc\u00e4\u00f6\u00fc\u00df0-9_]+", text.lower()))
+
+
+def get_query_keywords(question):
+    query_words = normalize_for_matching(question)
+    topic_words = set(query_words)
+    question_lower = question.lower()
+
+    for keywords in TOPIC_KEYWORDS.values():
+        if query_words & keywords or any(keyword in question_lower for keyword in keywords):
+            topic_words.update(keywords)
+
+    return topic_words
+
+
+def result_metadata_text(result):
+    source_urls = result.get("source_urls", [])
+    if not source_urls and result.get("source_url"):
+        source_urls = [result["source_url"]]
+
+    return " ".join(
+        [
+            result.get("filename", ""),
+            result.get("title", ""),
+            " ".join(source_urls),
+        ]
+    )
+
+
+def filter_relevant_results(question, search_results, max_results=3, min_score=0.36):
+    if not search_results:
+        return []
+
+    query_keywords = get_query_keywords(question)
+    filtered = []
+
+    for result in search_results:
+        metadata_words = normalize_for_matching(result_metadata_text(result))
+        keyword_overlap = query_keywords & metadata_words
+        score = result.get("score", 0)
+
+        if score >= min_score and keyword_overlap:
+            filtered.append(result)
+        elif len(keyword_overlap) >= 2:
+            filtered.append(result)
+
+    if not filtered:
+        strong_scored = [
+            result for result in search_results if result.get("score", 0) >= 0.45
+        ]
+        filtered = strong_scored[:max_results]
+
+    return filtered[:max_results]
+
+
 def split_user_questions(user_input):
     text = user_input.strip()
     if not text:
@@ -368,8 +608,10 @@ Do not use outside knowledge.
 Keep the answer friendly, calm, concise, and practical.
 Use simple language.
 Start naturally, like a helpful expert friend, not with robotic phrases.
+Start with a direct short answer.
+Then give 3-5 clear bullet points when useful.
+Keep the answer under about 1200 characters unless the user asks for detail.
 Do not overclaim. If the document context is limited, say so plainly.
-Use clear bullet points when listing requirements or steps.
 If multiple documents are relevant, combine them into one clean answer.
 Do not write phrases like "the provided documents say" or "based on the context".
 Always present the main answer first.
@@ -392,12 +634,19 @@ User question:
 """.strip()
 
 
-def build_language_task_prompt(user_input, response_language):
-    language_instruction = (
-        "Respond in German. Use formal Sie for official letters or replies unless the user asks for informal German."
-        if response_language == "German"
-        else "Respond in English."
-    )
+def build_language_task_prompt(user_input, response_language, user_language):
+    if response_language == "German" and user_language == "English":
+        language_instruction = (
+            "The user asked in English for German drafting. First provide the German text. "
+            "Then add a very brief English explanation of what the draft says. "
+            "Use formal Sie for official German letters or replies unless the user asks for informal German."
+        )
+    elif response_language == "German":
+        language_instruction = (
+            "Respond in German. Use formal Sie for official letters or replies unless the user asks for informal German."
+        )
+    else:
+        language_instruction = "Respond in English."
 
     return f"""
 You are helping with a language task for an expat in Germany.
@@ -492,8 +741,9 @@ def ask_gemini(client, user_input, search_results, response_language):
 
 
 def answer_language_task(client, user_input):
+    user_language = get_user_language(user_input)
     response_language = get_response_language(user_input)
-    prompt = build_language_task_prompt(user_input, response_language)
+    prompt = build_language_task_prompt(user_input, response_language, user_language)
     return call_gemini_with_prompt(client, prompt).strip()
 
 
@@ -517,6 +767,7 @@ def answer_single_question(client, question, response_language=None):
         english_question = translate_query_to_english(client, question)
         search_results = search_documents(client, english_question)
 
+    search_results = filter_relevant_results(question, search_results)
     print_debug_results(question, search_results)
 
     if not search_results:
@@ -530,7 +781,11 @@ def answer_user_input(client, user_input):
     if simple_response:
         return simple_response
 
-    if is_language_task(user_input):
+    safe_fallback = get_safe_fallback(user_input)
+    if safe_fallback:
+        return safe_fallback
+
+    if is_translation_or_short_explanation(user_input) or is_drafting_task(user_input) or is_language_task(user_input):
         return answer_language_task(client, user_input)
 
     response_language = get_response_language(user_input)
@@ -606,3 +861,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
