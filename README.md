@@ -1,5 +1,9 @@
 # Expat Germany AI Assistant
 
+## Live Demo
+
+Try the app here: https://expat-germany-ai-assistant.streamlit.app
+
 A beginner-friendly bilingual RAG chatbot for common expat questions in Germany - including visas, work, housing, taxes, health insurance, family life, studying, transport, daily life, travel, hobbies, German culture, rules, holidays, weather basics, work environment, and Indian community topics.
 
 This project explores how to build a reliable, document-grounded AI assistant for real-world expat problems using Retrieval-Augmented Generation (RAG).
