@@ -1,6 +1,8 @@
 .env
 __pycache__/
-vectorstore/
+vectorstore/*
+!vectorstore/faiss.index
+!vectorstore/chunks.json
 vector_store/
 *.pyc
 .venv/

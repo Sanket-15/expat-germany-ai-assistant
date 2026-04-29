@@ -129,6 +129,56 @@ Type `exit` or `quit` to stop.
 streamlit run streamlit_app.py
 ```
 
+## Streamlit Cloud Deployment
+
+This app can run on Streamlit Cloud as a simple Streamlit app.
+
+### 1. Add your Gemini API key
+
+In Streamlit Cloud, open your app settings and add this under **Secrets**:
+
+```toml
+GEMINI_API_KEY = "your_gemini_api_key_here"
+```
+
+Do not commit `.env` or any real API keys to GitHub.
+
+### 2. Vectorstore requirement
+
+Streamlit Cloud needs the generated vectorstore files to answer RAG questions:
+
+- `vectorstore/faiss.index`
+- `vectorstore/chunks.json`
+
+These two files are allowed in Git because Streamlit Cloud needs them at runtime. Other vectorstore cache/temp files should stay ignored.
+
+If source documents change, rebuild the vectorstore locally and commit the updated generated files:
+
+```bash
+python scrape_sources.py
+python ingest.py
+```
+
+Before deployment, make sure these files exist in the repository:
+
+```text
+vectorstore/faiss.index
+vectorstore/chunks.json
+```
+
+### 3. Run locally
+
+```bash
+pip install -r requirements.txt
+streamlit run streamlit_app.py
+```
+
+### 4. Run evaluation locally
+
+```bash
+python eval_runner.py
+```
+
 ## Example Questions
 
 - How do I apply for an EU Blue Card?
