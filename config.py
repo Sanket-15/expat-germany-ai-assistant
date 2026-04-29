@@ -18,8 +18,8 @@ MODEL_NAMES = [
 DEBUG = False
 
 INSUFFICIENT_MESSAGE = (
-    "I don\u2019t have enough information from the current documents to answer "
-    "this reliably."
+    "I could not find enough information in my saved documents to answer "
+    "this confidently."
 )
 
 IMPORTANT_NOTE = (

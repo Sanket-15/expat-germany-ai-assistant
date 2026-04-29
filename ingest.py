@@ -34,6 +34,21 @@ def normalize_chunk(text):
     return " ".join(text.lower().split())
 
 
+def infer_topic(filename):
+    topic = filename.replace(".txt", "").replace("_", " ")
+    return topic.strip().title()
+
+
+def detect_language(text):
+    text_lower = text.lower()
+    german_markers = (" der ", " die ", " das ", " und ", " nicht ", " steuer", " anmeldung")
+    if any(char in text_lower for char in ("ä", "ö", "ü", "ß")):
+        return "de"
+    if sum(marker in f" {text_lower} " for marker in german_markers) >= 2:
+        return "de"
+    return "en"
+
+
 def load_documents():
     documents = []
 
@@ -43,13 +58,15 @@ def load_documents():
             continue
 
         documents.append(
-            {
-                "filename": path.name,
-                "title": get_title(text, path.stem.replace("_", " ").title()),
-                "source_urls": get_source_urls(text),
-                "text": text,
-            }
-        )
+                {
+                    "filename": path.name,
+                    "title": get_title(text, path.stem.replace("_", " ").title()),
+                    "source_urls": get_source_urls(text),
+                    "topic": infer_topic(path.name),
+                    "language": detect_language(text),
+                    "text": text,
+                }
+            )
 
     return documents
 
@@ -86,6 +103,8 @@ def build_chunks(documents):
                     "filename": document["filename"],
                     "title": document["title"],
                     "source_urls": document["source_urls"],
+                    "topic": document["topic"],
+                    "language": document["language"],
                     "text": text_chunk,
                 }
             )

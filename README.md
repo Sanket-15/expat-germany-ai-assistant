@@ -64,6 +64,8 @@ expat-germany-ai-assistant/
 4. User question retrieves relevant chunks
 5. Gemini generates an answer grounded in retrieved context
 
+Retrieval uses sentence-aware chunks with overlap and preserves metadata such as filename, title, source URL, topic, and language. The assistant displays only the most relevant sources for factual RAG answers and falls back when saved documents do not provide enough context.
+
 ## Setup
 
 ### 1. Create and activate a virtual environment
@@ -162,6 +164,7 @@ eval_results/eval_results.csv
 The evaluation checks:
 
 - source grounding for factual RAG answers
+- relevance of displayed sources after source filtering
 - whether translation, sentence explanation, drafting, greetings, and small talk bypass document retrieval
 - English/German language behavior
 - safe fallback behavior for high-risk or out-of-scope questions

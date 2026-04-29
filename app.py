@@ -9,8 +9,8 @@ from config import DEBUG, IMPORTANT_NOTE, INSUFFICIENT_MESSAGE, MODEL_NAMES
 from rag import format_context, format_sources, search_documents
 
 INSUFFICIENT_MESSAGE_DE = (
-    "Ich habe in den aktuellen Dokumenten nicht gen\u00fcgend Informationen, "
-    "um diese Frage zuverl\u00e4ssig zu beantworten."
+    "Ich konnte in meinen gespeicherten Dokumenten nicht gen\u00fcgend "
+    "Informationen finden, um diese Frage sicher zu beantworten."
 )
 
 IMPORTANT_NOTE_DE = (
@@ -482,6 +482,15 @@ TOPIC_KEYWORDS = {
     "rundfunk": {"rundfunk", "radio", "beitrag"},
 }
 
+GENERIC_SOURCE_FILENAMES = {
+    "day_to_day_life_germany.txt",
+    "german_culture.txt",
+    "german_rules_etiquette.txt",
+    "german_festivals_public_holidays.txt",
+    "indian_community_germany.txt",
+    "hobbies_and_vereins_germany.txt",
+}
+
 
 def normalize_for_matching(text):
     return set(re.findall(r"[a-zA-Z\u00c4\u00d6\u00dc\u00e4\u00f6\u00fc\u00df0-9_]+", text.lower()))
@@ -508,12 +517,14 @@ def result_metadata_text(result):
         [
             result.get("filename", ""),
             result.get("title", ""),
+            result.get("topic", ""),
+            result.get("language", ""),
             " ".join(source_urls),
         ]
     )
 
 
-def filter_relevant_results(question, search_results, max_results=3, min_score=0.36):
+def filter_relevant_results(question, search_results, max_results=3, min_score=0.38):
     if not search_results:
         return []
 
@@ -524,15 +535,30 @@ def filter_relevant_results(question, search_results, max_results=3, min_score=0
         metadata_words = normalize_for_matching(result_metadata_text(result))
         keyword_overlap = query_keywords & metadata_words
         score = result.get("score", 0)
+        is_generic_source = result.get("filename") in GENERIC_SOURCE_FILENAMES
+
+        if is_generic_source and score < 0.5:
+            continue
 
         if score >= min_score and keyword_overlap:
             filtered.append(result)
         elif len(keyword_overlap) >= 2:
             filtered.append(result)
 
+    specific_results = [
+        result
+        for result in filtered
+        if result.get("filename") not in GENERIC_SOURCE_FILENAMES
+    ]
+    if specific_results:
+        filtered = specific_results
+
     if not filtered:
         strong_scored = [
-            result for result in search_results if result.get("score", 0) >= 0.45
+            result
+            for result in search_results
+            if result.get("score", 0) >= 0.48
+            and result.get("filename") not in GENERIC_SOURCE_FILENAMES
         ]
         filtered = strong_scored[:max_results]
 

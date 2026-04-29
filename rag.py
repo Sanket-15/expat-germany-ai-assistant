@@ -51,7 +51,19 @@ def split_sentences(text):
     return re.split(r"(?<=[.!?])\s+", text)
 
 
-def split_large_section(section, chunk_size):
+def get_overlap_text(text, overlap):
+    if len(text) <= overlap:
+        return text
+
+    overlap_text = text[-overlap:]
+    sentence_start = re.search(r"(?<=[.!?])\s+", overlap_text)
+    if sentence_start:
+        return overlap_text[sentence_start.end():].strip()
+
+    return overlap_text.strip()
+
+
+def split_large_section(section, chunk_size, overlap):
     chunks = []
     current_chunk = ""
 
@@ -63,7 +75,8 @@ def split_large_section(section, chunk_size):
         next_chunk = f"{current_chunk} {sentence}".strip()
         if len(next_chunk) > chunk_size and current_chunk:
             chunks.append(current_chunk)
-            current_chunk = sentence
+            overlap_text = get_overlap_text(current_chunk, overlap)
+            current_chunk = f"{overlap_text} {sentence}".strip()
         else:
             current_chunk = next_chunk
 
@@ -73,7 +86,7 @@ def split_large_section(section, chunk_size):
     return chunks
 
 
-def split_text(text, chunk_size=1400):
+def split_text(text, chunk_size=1000, overlap=200):
     chunks = []
 
     for section in split_into_sections(text):
@@ -81,7 +94,7 @@ def split_text(text, chunk_size=1400):
             chunks.append(section)
             continue
 
-        chunks.extend(split_large_section(section, chunk_size))
+        chunks.extend(split_large_section(section, chunk_size, overlap))
 
     return chunks
 
