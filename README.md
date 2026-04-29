@@ -2,6 +2,8 @@
 
 A beginner-friendly bilingual RAG chatbot for common expat questions in Germany - including visas, work, housing, taxes, health insurance, family life, studying, transport, daily life, travel, hobbies, German culture, rules, holidays, weather basics, work environment, and Indian community topics.
 
+This project explores how to build a reliable, document-grounded AI assistant for real-world expat problems using Retrieval-Augmented Generation (RAG).
+
 It understands and replies in English and German.
 Answers are based on the documents currently available in the knowledge base.
 
@@ -137,11 +139,13 @@ streamlit run streamlit_app.py
 
 ## Demo
 
-(Add a screenshot here later)
+### App overview
 
-```text
-screenshots/streamlit_ui.png
-```
+![App overview](screenshots/streamlit_ui.png)
+
+### Example question and answer
+
+![Example question and answer](screenshots/streamlit_ui_demo.png)
 
 ## Limitations
 
