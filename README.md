@@ -29,7 +29,7 @@ Supports both:
 ## Tech Stack
 
 - Python
-- Google Gemini API (`google-generativeai`)
+- Google Gemini API (`google-genai`)
 - FAISS
 - Streamlit
 - Requests
