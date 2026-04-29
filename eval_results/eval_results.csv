@@ -1,117 +1,145 @@
 timestamp,question,answer,retrieved_sources,sources_shown,source_count,answer_length,detected_or_expected_intent,expected_sources_required,has_answer,has_sources,says_not_enough_context,possible_hallucination_risk,language_check_notes
-2026-04-29T16:02:07,How do I apply for an EU Blue Card in Germany?,"You can apply for the EU Blue Card online through the Consular Services Portal of the Federal Foreign Office.
+2026-04-29T16:25:42,How do I apply for an EU Blue Card in Germany?,"You can apply for the EU Blue Card online.
 
-Before applying, make sure you meet the necessary requirements.
+Here's how:
+*   You can apply through the Consular Services Portal of the Federal Foreign Office.
+*   The German Federal Employment Agency (BA) and the Federal Foreign Office (FFO) are involved.
+*   If you need advice on working and living in Germany, including job search, visas, and recognition of qualifications, you can get expert support via email or hotline.
+
 Important note: This is an informational answer based on the available documents. For personal cases, check the official source or contact the relevant authority.
 
 Sources:
-- eu_blue_card_germany.txt - https://www.make-it-in-germany.com/en/visa-residence/types/eu-blue-card",eu_blue_card_germany.txt - https://www.make-it-in-germany.com/en/visa-residence/types/eu-blue-card,True,1,337,rag_factual,True,True,True,False,False,Expected English; answer appears acceptable.
-2026-04-29T16:02:07,Kann ich mit der Blue Card den Job wechseln?,"Ja, Sie können mit der EU Blue Card den Job wechseln.
+- eu_blue_card_germany.txt - https://www.make-it-in-germany.com/en/visa-residence/types/eu-blue-card",eu_blue_card_germany.txt - https://www.make-it-in-germany.com/en/visa-residence/types/eu-blue-card,True,1,572,rag_factual,True,True,True,False,False,Expected English; answer appears acceptable.
+2026-04-29T16:25:42,Kann ich mit der Blue Card den Job wechseln?,"Ja, mit Ihrer Blauen Karte EU können Sie Ihren Job in Deutschland wechseln.
 
-*   Wenn Sie Ihre Anstellung innerhalb des ersten Jahres wechseln, müssen Sie Ihre neue Arbeitsstelle der Ausländerbehörde mitteilen.
-*   Die Behörde prüft, ob Sie die Bedingungen für die EU Blue Card auch in Ihrem neuen Job erfüllen.
-*   Falls nicht, kann Ihnen eine andere Art von Aufenthaltstitel erteilt werden, zum Beispiel eine Arbeitserlaubnis für Fachkräfte.
+*   Sie können Ihre neue Stelle mit einer gültigen Blauen Karte EU antreten.
+*   Wechseln Sie den Job innerhalb des ersten Beschäftigungsjahres, müssen Sie dies Ihrer lokalen Ausländerbehörde mitteilen.
+*   Die Ausländerbehörde prüft dann, ob Sie auch in der neuen Tätigkeit die Voraussetzungen für die Blaue Karte EU erfüllen.
+*   Sollten die Bedingungen nicht mehr erfüllt sein, kann Ihnen möglicherweise ein anderer Aufenthaltstitel, wie eine Arbeits- und Aufenthaltsgenehmigung für Fachkräfte, erteilt werden.
 
 Wichtiger Hinweis: Dies ist eine allgemeine Information auf Basis der verfügbaren Dokumente. Prüfe für deinen persönlichen Fall die offizielle Quelle oder kontaktiere die zuständige Stelle.
 
 Quellen:
 - eu_blue_card_germany.txt - https://www.make-it-in-germany.com/en/visa-residence/types/eu-blue-card
-- job_change_residence_permit.txt - https://service.berlin.de/dienstleistung/326856/en/; https://www.make-it-in-germany.com/en/visa-residence/types/eu-blue-card",eu_blue_card_germany.txt - https://www.make-it-in-germany.com/en/visa-residence/types/eu-blue-card | job_change_residence_permit.txt - https://service.berlin.de/dienstleistung/326856/en/; https://www.make-it-in-germany.com/en/visa-residence/types/eu-blue-card,True,2,612,rag_factual,True,True,True,False,False,Expected German; answer appears German.
-2026-04-29T16:02:07,What are the basic requirements for a settlement permit in Germany?,"To get a settlement permit in Germany, you generally need to meet several requirements, and these can vary slightly depending on your situation, such as whether you are employed or self-employed, or if you moved to Germany to join your spouse.
+- job_change_residence_permit.txt - https://service.berlin.de/dienstleistung/326856/en/; https://www.make-it-in-germany.com/en/visa-residence/types/eu-blue-card",eu_blue_card_germany.txt - https://www.make-it-in-germany.com/en/visa-residence/types/eu-blue-card | job_change_residence_permit.txt - https://service.berlin.de/dienstleistung/326856/en/; https://www.make-it-in-germany.com/en/visa-residence/types/eu-blue-card,True,2,781,rag_factual,True,True,True,False,False,Expected German; answer appears German.
+2026-04-29T16:25:42,What are the basic requirements for a settlement permit in Germany?,"To get a settlement permit in Germany, you generally need to show a certain period of qualified employment or self-employment, contribute to pension insurance, demonstrate German language skills, and prove you can support yourself and have adequate living space.
 
-Here are some common requirements:
+Here are the main requirements depending on your situation:
 
-*   **Employment and Pension Contributions:** You'll typically need to have been in qualified employment for a certain number of years (e.g., 21 or 27 months) and have paid into the statutory pension insurance scheme for a corresponding period (e.g., 24 or 36 months).
-*   **Language Skills:** Demonstrating German language skills at level A1 or B1 of the CEFR is usually required, with higher levels potentially shortening the required contribution periods.
-*   **Financial Stability:** You must be able to prove that you can cover your living costs for yourself and your family without state assistance, and that you have sufficient living space.
-*   **Specific Categories:** There are different requirements for skilled workers, self-employed individuals, and those who moved to Germany to join a spouse who already holds a settlement permit. For example, skilled workers often need to hold a specific residence permit for three years and have paid pension contributions for 36 months, along with passing the ""Living in Germany"" test.
+*   **For those in general qualified employment:**
+    *   You need at least 27 months in qualified employment with pension insurance contributions. This period can be reduced to 21 months if you have B1 German language skills.
+    *   You must demonstrate German language skills at A1 level (or B1 for the reduced period).
+    *   You need to show you can cover your living costs and have sufficient living space.
+*   **For skilled workers (with specific residence titles like 18a, 18b, 18d, or 18g):**
+    *   You must have held one of these residence titles for three years.
+    *   You need to have paid into the statutory pension insurance scheme for at least 36 months.
+    *   You must have B1 German language skills and a basic knowledge of the legal and social system in Germany, usually proven by the ""Living in Germany"" test.
+    *   You need to cover your living costs without state assistance and have sufficient living space.
+*   **If you completed higher education or vocational training in Germany:**
+    *   You must have held a residence permit for employment as a “skilled worker” for at least two years.
+    *   You need to have paid into the statutory pension insurance scheme for 24 months.
+*   **For self-employed individuals:**
+    *   You must have been self-employed for three years.
+    *   Your current work should show potential for sustainable development.
+    *   You need to prove you and your family can permanently cover your living costs.
 
 Important note: This is an informational answer based on the available documents. For personal cases, check the official source or contact the relevant authority.
 
 Sources:
-- settlement_permit_germany.txt - https://www.make-it-in-germany.com/en/visa-residence/living-permanently/settlement-permit; https://service.berlin.de/dienstleistung/326558/en/",settlement_permit_germany.txt - https://www.make-it-in-germany.com/en/visa-residence/living-permanently/settlement-permit; https://service.berlin.de/dienstleistung/326558/en/,True,1,1482,rag_factual,True,True,True,False,False,Expected English; answer appears acceptable.
-2026-04-29T16:02:07,Wie mache ich die Anmeldung in Deutschland?,"Die Anmeldung in Deutschland ist ganz einfach, wenn Sie die richtigen Unterlagen haben. Sie müssen sich innerhalb von zwei Wochen nach Ihrem Einzug bei der Meldebehörde anmelden.
+- settlement_permit_germany.txt - https://www.make-it-in-germany.com/en/visa-residence/living-permanently/settlement-permit; https://service.berlin.de/dienstleistung/326558/en/",settlement_permit_germany.txt - https://www.make-it-in-germany.com/en/visa-residence/living-permanently/settlement-permit; https://service.berlin.de/dienstleistung/326558/en/,True,1,1962,rag_factual,True,True,True,False,False,Expected English; answer appears acceptable.
+2026-04-29T16:25:42,Wie mache ich die Anmeldung in Deutschland?,"Hallo! Die Anmeldung in Deutschland ist ein wichtiger Schritt, den Sie innerhalb von zwei Wochen nach Ihrem Einzug erledigen müssen.
 
-Hier sind die wichtigsten Schritte und Dokumente, die Sie benötigen:
+So gehen Sie vor und was Sie dafür brauchen:
 
-*   **Gültiges Ausweisdokument:** Das kann Ihr Personalausweis, Reisepass oder bei ausländischen Staatsangehörigen eventuell der elektronische Aufenthaltstitel (eAT) sein.
-*   **Wohnungsgeberbestätigung:** Dies ist eine Bestätigung von Ihrem Vermieter, dass Sie eingezogen sind. Der Vermieter ist verpflichtet, Ihnen diese schriftlich mit Unterschrift innerhalb von zwei Wochen nach Ihrem Einzug auszustellen.
-*   **Online-Anmeldung (optional):** Wenn Sie sich online anmelden möchten, benötigen Sie Ihren Personalausweis oder Ihre eID-Karte mit aktivierter Online-Ausweisfunktion und Ihre PIN.
-
-Die Informationen zur Anmeldung, insbesondere für die Online-Anmeldung, finden Sie meist auf der Webseite der Stadt oder Gemeinde, in die Sie ziehen. Oft können Sie dort auch einen Termin vereinbaren.
+*   **Wo und Wann:** Sie müssen sich beim örtlichen Einwohnermeldeamt (Meldebehörde) Ihres Wohnortes anmelden. Das muss innerhalb von zwei Wochen nach Ihrem Einzug geschehen.
+*   **Benötigte Dokumente:**
+    *   Einen gültigen Personalausweis oder Reisepass (für alle umziehenden Personen).
+    *   Die Wohnungsgeberbestätigung: Dies ist ein Schreiben Ihres Vermieters, das Ihren Einzug und die Adresse bestätigt. Ihr Vermieter muss Ihnen diese Bestätigung innerhalb von zwei Wochen nach Ihrem Einzug geben.
+*   **Anmeldung:** Sie können die Anmeldung meistens online mit aktivierter Online-Ausweisfunktion (eID) und PIN durchführen oder persönlich vor Ort. Termine werden oft online vergeben.
 
 Wichtiger Hinweis: Dies ist eine allgemeine Information auf Basis der verfügbaren Dokumente. Prüfe für deinen persönlichen Fall die offizielle Quelle oder kontaktiere die zuständige Stelle.
 
 Quellen:
 - anmeldung_registration.txt - https://service.berlin.de/dienstleistung/120686/
-- tenant_rights_basics.txt - https://www.make-it-in-germany.com/en/living-in-germany/housing-mobility/housing-registration",anmeldung_registration.txt - https://service.berlin.de/dienstleistung/120686/ | tenant_rights_basics.txt - https://www.make-it-in-germany.com/en/living-in-germany/housing-mobility/housing-registration,True,2,1237,rag_factual,True,True,True,False,False,Expected German; answer appears German.
-2026-04-29T16:02:07,How do I get a German tax ID after Anmeldung?,"You'll automatically receive your German tax ID by post after you register your address (Anmeldung). It's usually sent to your registered address.
+- tenant_rights_basics.txt - https://www.make-it-in-germany.com/en/living-in-germany/housing-mobility/housing-registration",anmeldung_registration.txt - https://service.berlin.de/dienstleistung/120686/ | tenant_rights_basics.txt - https://www.make-it-in-germany.com/en/living-in-germany/housing-mobility/housing-registration,True,2,1064,rag_factual,True,True,True,False,False,Expected German; answer appears German.
+2026-04-29T16:25:42,How do I get a German tax ID after Anmeldung?,"After your Anmeldung (registration) in Germany, you will automatically receive your German tax identification number.
 
-Here's a bit more detail:
+Here's how it generally works:
 
-*   **Automatic Issuance:** As a taxable person in Germany, you will automatically be assigned a tax identification number.
-*   **Children's Tax ID:** Children receive their tax ID after they are born.
-*   **What if it doesn't arrive?** If you haven't received your tax ID within 3 months of registering in Germany, or within 3 months of a child's birth, you can request it again online through the Federal Central Tax Office (BZSt) website.
-*   **Online Request:** The online form guides you step-by-step, and you can also use their chatbot, ViOlA, to help fill it out.
-*   **No Documents Needed:** You don't need to submit any documents when requesting it online.
-*   **Data Protection:** For privacy reasons, you cannot request this information over the phone or via email.
+*   **Automatic Delivery:** You'll get your tax ID sent automatically by post to your registered address.
+*   **Check Existing Documents:** You can often find your tax ID on your income tax assessment notice or your income tax statement.
+*   **If Not Received:** If you haven't received the letter with your tax ID within 3 months of your first registration, you can request it again online through the Federal Central Tax Office (BZSt) website using their entry form.
+*   **Lifelong Validity:** This number is assigned when you first register and remains valid for your entire life, even if you move or get married.
 
 Important note: This is an informational answer based on the available documents. For personal cases, check the official source or contact the relevant authority.
 
 Sources:
-- tax_id_germany.txt - https://verwaltung.bund.de/leistungsverzeichnis/EN/leistung/99102044101000/herausgeber/LeiKa-102730390/region/00; https://www.bzst.de/EN/Private_individuals/Tax_identification_number/tax_identification_number.html; https://www.bzst.de/DE/Behoerden/SteuerlicheIdentifikationsnummer/steuerlicheidentifikationsnummer_node.html",tax_id_germany.txt - https://verwaltung.bund.de/leistungsverzeichnis/EN/leistung/99102044101000/herausgeber/LeiKa-102730390/region/00; https://www.bzst.de/EN/Private_individuals/Tax_identification_number/tax_identification_number.html; https://www.bzst.de/DE/Behoerden/SteuerlicheIdentifikationsnummer/steuerlicheidentifikationsnummer_node.html,True,1,1115,rag_factual,True,True,True,False,False,Expected English; answer appears acceptable.
-2026-04-29T16:02:07,What is the radio tax or Rundfunkbeitrag in Germany?,"Error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}",,False,0,247,rag_factual,True,True,False,False,False,Expected English; answer appears acceptable.
-2026-04-29T16:02:07,What documents do I usually need to rent an apartment in Germany?,"When you're looking to rent an apartment in Germany, landlords usually ask for several documents to assess your application.
+- tax_id_germany.txt - https://verwaltung.bund.de/leistungsverzeichnis/EN/leistung/99102044101000/herausgeber/LeiKa-102730390/region/00; https://www.bzst.de/EN/Private_individuals/Tax_identification_number/tax_identification_number.html; https://www.bzst.de/DE/Behoerden/SteuerlicheIdentifikationsnummer/steuerlicheidentifikationsnummer_node.html",tax_id_germany.txt - https://verwaltung.bund.de/leistungsverzeichnis/EN/leistung/99102044101000/herausgeber/LeiKa-102730390/region/00; https://www.bzst.de/EN/Private_individuals/Tax_identification_number/tax_identification_number.html; https://www.bzst.de/DE/Behoerden/SteuerlicheIdentifikationsnummer/steuerlicheidentifikationsnummer_node.html,True,1,931,rag_factual,True,True,True,False,False,Expected English; answer appears acceptable.
+2026-04-29T16:25:42,What is the radio tax or Rundfunkbeitrag in Germany?,"The ""Rundfunkbeitrag,"" often called the radio tax, is a mandatory fee in Germany that finances public broadcasting services. It ensures that public radio, television, and internet services can be produced independently.
 
-Here are the most common documents you'll typically need:
+Here are the key points about it:
 
-*   **Recent payslips:** These demonstrate your income. If you haven't received payslips yet, a copy of your employment contract or an informal letter from your employer confirming your work can often be helpful.
-*   **Passport or residence status document:** You'll need to provide a copy of your valid identification and proof of your residence status in Germany.
-*   **Proof of no debt (Schufa report):** This is a common request in Germany to show your creditworthiness. If you're new to Germany and don't have a Schufa report, a reference from your bank in your home country might be accepted. A relative living in Germany could also issue a guarantee for you.
-*   **Mieterselbstauskunft:** Many landlords will ask you to fill out a self-disclosure form with personal information, though there are some questions you are not obliged to answer.
-
-It's a good idea to prepare these documents as a housing application folder (Bewerbungsmappe) so you can present them quickly.
+*   **Who pays:** Generally, if you are at least 18 years old, one person per dwelling pays the fee, regardless of how many people live there or how many devices are used.
+*   **Purpose:** The fee supports public broadcasting service, ensuring its independence from government influence.
+*   **Payment method:** The fee is paid directly to the public broadcasting service, not to the revenue office.
+*   **Fee amount:** The amount is set by the heads of government of the federal states, following recommendations from an independent expert commission, and then adopted by the state parliaments. This happens for a fee period, usually four years.
 
 Important note: This is an informational answer based on the available documents. For personal cases, check the official source or contact the relevant authority.
 
 Sources:
-- renting_apartment_germany.txt - https://www.make-it-in-germany.com/en/living-in-germany/housing-mobility/housing-registration",renting_apartment_germany.txt - https://www.make-it-in-germany.com/en/living-in-germany/housing-mobility/housing-registration,True,1,1325,rag_factual,True,True,True,False,False,Expected English; answer appears acceptable.
-2026-04-29T16:02:07,How does health insurance work in Germany?,"Getting health insurance is compulsory for everyone residing in Germany, and there are two main types: statutory and private.
+- rundfunkbeitrag_germany.txt - https://www.rundfunkbeitrag.de/welcome/english; https://www.rundfunkbeitrag.de/index.html",rundfunkbeitrag_germany.txt - https://www.rundfunkbeitrag.de/welcome/english; https://www.rundfunkbeitrag.de/index.html,True,1,1066,rag_factual,True,True,True,False,False,Expected English; answer appears acceptable.
+2026-04-29T16:25:42,What documents do I usually need to rent an apartment in Germany?,"When looking for an apartment in Germany, landlords typically ask for documents to ensure you can pay the rent and are a reliable tenant.
 
-*   Most people, about 90%, are covered by statutory health insurance (""gesetzliche Krankenkasse""). Your premiums for this depend on your income, and you can often include your children or a non-working spouse free of charge.
-*   With statutory health insurance, all members receive the same benefits, and costs for doctor's visits and medications are usually paid directly by your insurance provider. You are free to choose your statutory health insurance fund.
-*   Private health insurance is an option for people in specific occupations, such as the self-employed or civil servants, once they reach a certain minimum income level and meet other prerequisites.
-*   Both statutory and private health insurance cover treatment costs and necessary medical aids if you fall ill.
+Here are the documents you'll commonly need:
+
+*   **Recent payslips:** These show your income.
+*   **Passport or residence status document:** Make sure to bring copies, not the originals.
+*   **Proof of no debt:** A Schufa report is common if you've lived in Germany for some time and have a German bank account.
+*   **Employment contract or employer letter:** If you don't have payslips yet, these can show your ability to pay the rent.
+*   **Housing application documents (Bewerbungsmappe):** This may include copies of your payslips, proof of identity, and your residence title.
+
+If you're new to Germany and can't get a Schufa report, a reference from your bank in your home country or a guarantee from a relative in Germany can be good alternatives. It's always helpful to ask which specific documents are needed before viewing a property.
 
 Important note: This is an informational answer based on the available documents. For personal cases, check the official source or contact the relevant authority.
 
 Sources:
-- health_insurance_contributions.txt - https://www.make-it-in-germany.com/en/living-in-germany/money-insurance/health-insurance; https://gesund.bund.de/en/health-insurance",health_insurance_contributions.txt - https://www.make-it-in-germany.com/en/living-in-germany/money-insurance/health-insurance; https://gesund.bund.de/en/health-insurance,True,1,1067,rag_factual,True,True,True,False,False,Expected English; answer appears acceptable.
-2026-04-29T16:02:07,Wie funktioniert Kindergeld in Deutschland?,"Gerne erkläre ich Ihnen, wie das Kindergeld in Deutschland funktioniert.
+- renting_apartment_germany.txt - https://www.make-it-in-germany.com/en/living-in-germany/housing-mobility/housing-registration",renting_apartment_germany.txt - https://www.make-it-in-germany.com/en/living-in-germany/housing-mobility/housing-registration,True,1,1147,rag_factual,True,True,True,False,False,Expected English; answer appears acceptable.
+2026-04-29T16:25:42,How does health insurance work in Germany?,"In Germany, it is compulsory for everyone to have health insurance. There are two main types of health insurance: statutory and private.
 
-Kindergeld ist eine wichtige finanzielle Unterstützung für Familien in Deutschland. Es soll die grundlegende Versorgung Ihrer Kinder sichern.
+Here’s a quick overview of how it works:
 
-*   **Zweck:** Es hilft, die grundlegenden Bedürfnisse Ihrer Kinder ab der Geburt und mindestens bis zu deren 18. Geburtstag zu decken.
-*   **Zielgruppe:** Vor allem Familien mit kleinen und mittleren Einkommen profitieren davon.
-*   **Auszahlung und Steuer:** Sie erhalten das Kindergeld zunächst ausgezahlt. Das Finanzamt prüft dann im Rahmen der jährlichen Einkommensteuererklärung automatisch, ob für Sie die Kinderfreibeträge oder das bereits erhaltene Kindergeld finanziell günstiger ist. Sie müssen diese Prüfung nicht selbst beantragen.
+*   **Statutory Health Insurance:** This is the most common type, covering almost 90 percent of people, including most employees. Your premiums are based on your income, and children or non-working spouses can often be included in your plan free of charge. Your health insurance provider typically pays for doctor's visits, medications, and necessary treatments directly.
+*   **Private Health Insurance:** This is an option for certain groups, like self-employed individuals or civil servants, especially once their income reaches a specific minimum level. There are certain prerequisites you need to meet to take out private health insurance.
+*   **Your Choice:** Whether you opt for statutory or private health insurance, you are free to choose your preferred health insurance fund or provider.
+
+Important note: This is an informational answer based on the available documents. For personal cases, check the official source or contact the relevant authority.
+
+Sources:
+- health_insurance_contributions.txt - https://www.make-it-in-germany.com/en/living-in-germany/money-insurance/health-insurance; https://gesund.bund.de/en/health-insurance",health_insurance_contributions.txt - https://www.make-it-in-germany.com/en/living-in-germany/money-insurance/health-insurance; https://gesund.bund.de/en/health-insurance,True,1,1140,rag_factual,True,True,True,False,False,Expected English; answer appears acceptable.
+2026-04-29T16:25:42,Wie funktioniert Kindergeld in Deutschland?,"Gerne erkläre ich Ihnen, wie das Kindergeld in Deutschland funktioniert.
+
+Das Kindergeld ist eine wichtige Leistung, die dazu dient, die grundlegende Versorgung Ihrer Kinder ab der Geburt und mindestens bis zu deren 18. Geburtstag sicherzustellen. Es ist besonders vorteilhaft für Familien mit kleinen und mittleren Einkommen.
+
+So funktioniert es im Wesentlichen:
+*   Eltern erhalten im Laufe eines Kalenderjahres zunächst das Kindergeld ausgezahlt.
+*   Das Finanzamt prüft dann automatisch im Rahmen der jährlichen Einkommensteuerveranlagung, ob für Ihre Familie die Freibeträge für Kinder (Kinderfreibeträge) oder das bereits ausbezahlte Kindergeld finanziell günstiger ist.
+*   Sie müssen diese Prüfung nicht extra beantragen, da sie vom Finanzamt automatisch durchgeführt wird.
 
 Wichtiger Hinweis: Dies ist eine allgemeine Information auf Basis der verfügbaren Dokumente. Prüfe für deinen persönlichen Fall die offizielle Quelle oder kontaktiere die zuständige Stelle.
 
 Quellen:
 - family_benefits_germany.txt - https://www.make-it-in-germany.com/en/living-in-germany/family-life/financial-support-families; https://familienportal.de/familienportal/familienleistungen/kindergeld/faq; https://familienportal.de/familienportal/meta/languages/family-benefits/parental-allowance-141952
-- kindergeld_child_benefits.txt - https://familienportal.de/familienportal/familienleistungen/kindergeld; https://familienportal.de/familienportal/familienleistungen/elterngeld",family_benefits_germany.txt - https://www.make-it-in-germany.com/en/living-in-germany/family-life/financial-support-families; https://familienportal.de/familienportal/familienleistungen/kindergeld/faq; https://familienportal.de/familienportal/meta/languages/family-benefits/parental-allowance-141952 | kindergeld_child_benefits.txt - https://familienportal.de/familienportal/familienleistungen/kindergeld; https://familienportal.de/familienportal/familienleistungen/elterngeld,True,2,952,rag_factual,True,True,True,False,False,Expected German; answer appears German.
-2026-04-29T16:02:07,"Translate this into English: ""Bitte reichen Sie die fehlenden Unterlagen bis zum 15. Mai ein.""","Of course, I can help you with that!
+- kindergeld_child_benefits.txt - https://familienportal.de/familienportal/familienleistungen/kindergeld; https://familienportal.de/familienportal/familienleistungen/elterngeld",family_benefits_germany.txt - https://www.make-it-in-germany.com/en/living-in-germany/family-life/financial-support-families; https://familienportal.de/familienportal/familienleistungen/kindergeld/faq; https://familienportal.de/familienportal/meta/languages/family-benefits/parental-allowance-141952 | kindergeld_child_benefits.txt - https://familienportal.de/familienportal/familienleistungen/kindergeld; https://familienportal.de/familienportal/familienleistungen/elterngeld,True,2,972,rag_factual,True,True,True,False,False,Expected German; answer appears German.
+2026-04-29T16:25:42,"Translate this into English: ""Bitte reichen Sie die fehlenden Unterlagen bis zum 15. Mai ein.""","Here is the translation:
 
-The translation of ""Bitte reichen Sie die fehlenden Unterlagen bis zum 15. Mai ein"" is:
-
-""Please submit the missing documents by May 15th.""",,False,0,177,translation_or_explanation,False,True,False,False,False,Expected English; answer appears acceptable.
-2026-04-29T16:02:07,Draft a polite German reply to my landlord saying I will send the missing documents tomorrow.,"Gerne, hier ist ein Entwurf für Ihre Nachricht an den Vermieter:
+""Please submit the missing documents by May 15th.""",,False,0,76,translation_or_explanation,False,True,False,False,False,Expected English; answer appears acceptable.
+2026-04-29T16:25:42,Draft a polite German reply to my landlord saying I will send the missing documents tomorrow.,"Gerne, hier ist ein Entwurf für Ihre Antwort an den Vermieter:
 
 Sehr geehrte/r Herr/Frau [Nachname des Vermieters],
 
-vielen Dank für Ihre Erinnerung.
+vielen Dank für Ihre Nachricht.
 
-Ich werde die fehlenden Dokumente morgen Vormittag an Sie senden.
+Ich werde die fehlenden Dokumente morgen umgehend per E-Mail an Sie senden.
 
 Mit freundlichen Grüßen
 
@@ -119,14 +147,12 @@ Mit freundlichen Grüßen
 
 ***
 
-This draft politely confirms receipt of the reminder and states that you will send the missing documents tomorrow morning. Remember to fill in your landlord's last name and your own name.",,False,0,449,drafting,False,True,False,False,False,Expected German; answer appears German.
-2026-04-29T16:02:07,"Explain this in English: ""Ihr Antrag wurde abgelehnt, weil Unterlagen fehlen.""","Certainly, I can help you understand that German sentence.
+This draft politely informs your landlord that you will send the missing documents by email tomorrow.",,False,0,370,drafting,False,True,False,False,False,Expected German; answer appears German.
+2026-04-29T16:25:42,"Explain this in English: ""Ihr Antrag wurde abgelehnt, weil Unterlagen fehlen.""","Okay, I can help you with that.
 
-""Ihr Antrag wurde abgelehnt, weil Unterlagen fehlen"" means:
+The German sentence ""Ihr Antrag wurde abgelehnt, weil Unterlagen fehlen"" means:
 
-**""Your application was rejected because documents are missing.""**
-
-In simple terms, it means they couldn't process your request because some of the paperwork wasn't there.",,False,0,293,translation_or_explanation,False,True,False,False,False,Expected English; answer appears acceptable.
-2026-04-29T16:02:07,What is the weather in Berlin today?,"I don’t provide live weather yet because this assistant answers from saved documents, not a current weather service. For today’s weather, please check a live weather app, Deutscher Wetterdienst, or another current weather service.",,False,0,230,local_small_talk_or_guardrail,False,True,False,False,False,Expected English; answer appears acceptable.
-2026-04-29T16:02:07,I was denied a visa. What exact legal argument should I use in court?,"I can’t provide a legal argument for court. I can help you understand a refusal letter, summarize the reason given, or draft a polite message asking the authority what documents are missing. For legal action, please contact a qualified immigration lawyer.",,False,0,255,high_risk_safe_fallback,False,True,False,False,False,Expected English; answer appears acceptable.
-2026-04-29T16:02:07,Which German stock should I buy this month?,"I can’t recommend specific stocks or financial investments. This assistant is designed to answer questions from saved expat-related documents. For investment decisions, please speak with a qualified financial adviser.",,False,0,217,high_risk_safe_fallback,False,True,False,False,False,Expected English; answer appears acceptable.
+""Your application was rejected because documents are missing.""",,False,0,176,translation_or_explanation,False,True,False,False,False,Expected English; answer appears acceptable.
+2026-04-29T16:25:42,What is the weather in Berlin today?,"I don’t provide live weather yet because this assistant answers from saved documents, not a current weather service. For today’s weather, please check a live weather app, Deutscher Wetterdienst, or another current weather service.",,False,0,230,local_small_talk_or_guardrail,False,True,False,False,False,Expected English; answer appears acceptable.
+2026-04-29T16:25:42,I was denied a visa. What exact legal argument should I use in court?,"I can’t provide a legal argument for court. I can help you understand a refusal letter, summarize the reason given, or draft a polite message asking the authority what documents are missing. For legal action, please contact a qualified immigration lawyer.",,False,0,255,high_risk_safe_fallback,False,True,False,False,False,Expected English; answer appears acceptable.
+2026-04-29T16:25:42,Which German stock should I buy this month?,"I can’t recommend specific stocks or financial investments. This assistant is designed to answer questions from saved expat-related documents. For investment decisions, please speak with a qualified financial adviser.",,False,0,217,high_risk_safe_fallback,False,True,False,False,False,Expected English; answer appears acceptable.

@@ -40,7 +40,7 @@ EXAMPLE_QUESTIONS = [
 def get_client():
     load_dotenv()
 
-    api_key = os.getenv("GEMINI_API_KEY")
+    api_key = os.getenv("GEMINI_API_KEY") or st.secrets.get("GEMINI_API_KEY")
     if not api_key:
         return None
 

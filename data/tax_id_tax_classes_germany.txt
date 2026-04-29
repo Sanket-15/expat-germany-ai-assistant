@@ -1,6 +1,5 @@
 Title: Tax ID Tax Number Tax Classes Germany
 Source: https://www.make-it-in-germany.com/en/working-in-germany/working-environment/salary-taxes-social-security
-Source: https://www.make-it-in-germany.com/en/service/glossary/glossar/do/show/lohnsteuerklasse
 Content:
 
 Limited coverage note: Official English source coverage for Steuernummer is limited in this source set; this document focuses on tax classes and employee tax basics from reliable sources.
@@ -32,11 +31,3 @@ Click the icons in the bar below to discover all contact options.
 - E-Mail
 - Hotline
 - FAQ
-
-Source section: www.make-it-in-germany.com
-In our glossary, you can find a list of important terms related to work and life in Germany.
-
-Income tax bracket
-German: Lohnsteuerklasse
-The income tax bracket determines how much tax is withheld from employees’ gross earnings, based on their personal income. There are six different income tax brackets in total.
-Back to Glossary
