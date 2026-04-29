@@ -1,0 +1,7 @@
+google-genai
+python-dotenv
+requests
+beautifulsoup4
+faiss-cpu
+numpy
+streamlit

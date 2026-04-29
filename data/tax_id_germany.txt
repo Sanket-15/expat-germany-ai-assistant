@@ -1,0 +1,178 @@
+Title: German Tax ID Steueridentifikationsnummer
+Source: https://verwaltung.bund.de/leistungsverzeichnis/EN/leistung/99102044101000/herausgeber/LeiKa-102730390/region/00
+Source: https://www.bzst.de/EN/Private_individuals/Tax_identification_number/tax_identification_number.html
+Source: https://www.bzst.de/DE/Behoerden/SteuerlicheIdentifikationsnummer/steuerlicheidentifikationsnummer_node.html
+Content:
+
+Limited coverage note: Official BZSt sources explain that new citizens receive a tax identification number automatically after first registration in Germany. BZSt also notes in German that the identification number is intended to replace the tax number for income tax in the long term.
+
+Source section: verwaltung.bund.de
+More Information
+
+Publisher
+Federal Ministry of Finance (BMF)
+
+Last update or date of publication
+
+Contact
+The government service telephone number 115 – your point of contact for questions related to the federal, state and local.
+Monday through Friday from 8:00 to 18:00 (and beyond these times in some regions).
+Government service telephone number calls are charged at local rates.
+The tax identification number is used to identify the taxpayer in the taxation procedure. It means that tax returns, notifications and correspondence can always be clearly assigned to the respective taxpayer.
+The tax identification number is a "non-speaking number". This means that neither personal data nor the responsible tax office can be read from it.
+Every newborn child and all new citizens are automatically assigned a tax identification number when they first register in Germany. It remains valid for life and does not change when you move house or get married.
+You can usually also find your tax identification number
+- in your income tax assessment notice or
+- on your income tax statement.
+You can request your tax identification number via the input form of the Federal Central Tax Office (BZSt) if
+- within 3 months of your first registration in Germany
+- you have not yet received a tax identification number for your newborn child within 3 months of the birth
+you have not yet received a letter with the tax identification number.
+For data protection reasons, it is not possible to notify us by telephone or e-mail.
+You do not need to submit any documents.
+
+Preconditions
+All taxable persons in Germany receive a tax identification number.
+
+Hints
+There are no indications or specifics.
+There are no costs involved.
+
+Basis for legal action
+- § 139a Abgabeordnung (AO)
+- § 139b Abgabeordnung (AO)
+
+Legal Remedies
+No legal remedies are provided.
+
+Related Links
+- Fragen und Antworten zur Steueridentifikationsnummer auf der Internetseite des Bundeszentralamts für Steuern
+- Informationen zur Steueridentifikationsnummer auf der Internetseite des Bundeszentralamts für Steuern
+
+Procedure
+You will receive the tax identification number automatically by post to your registration address.
+- As a taxable person in Germany, you will automatically receive a tax identification number.
+- Children receive their tax identification number after birth.
+- If you cannot find your tax identification number, you can request your tax identification number again online using the entry form on the website of the Federal Central Tax Office (BZSt). The form guides you step by step through the individual sections. You can also complete the form using the Virtual Online Information (ViOlA), a chatbot.
+- The form guides you step by step through the individual sections.
+- You can also complete the form using the Virtual Online Information (ViOlA), a chatbot.
+- Complete the form in full and submit it by clicking on the "Send" button.
+- You will receive the tax identification number by post to your current registration address.
+
+Deadlines
+There is no deadline.
+
+Processing time
+If, in exceptional cases, the tax certificate has not been sent even after 3 months, it is advisable to submit a written request to the Federal Central Tax Office, stating the required data.
+- 4 weeks Durchschnittliche Bearbeitungsdauer bei Verwendung des Eingabeformulars
+4 weeks
+Durchschnittliche Bearbeitungsdauer bei Verwendung des Eingabeformulars
+- 4 weeks until 8 weeks Bearbeitungsdauer bei erstmaliger Wohnsitzanmeldung in Deutschland nach der Geburt
+4 weeks until 8 weeks
+Bearbeitungsdauer bei erstmaliger Wohnsitzanmeldung in Deutschland nach der Geburt
+
+Source section: www.bzst.de
+The identification number
+The identification number ( IdNo ) concerns an eleven-digit number, and does not contain any information about the person concerned. It is permanently valid and does not change, for example, if you move house, change your name or change your marital status.
+
+How do I get my IdNo
+Have you not received your IdNo yet or cannot find it?
+The Elster Online Portal contains information about the electronic wage tax deduction information ( ELStAM ).
+You can usually find your IdNo in the following documents:
+- in your income tax assessment,
+- on your employment tax statement or
+- in the informational letter from the federal central tax office. This letter was sent to you by your tax office in October or November 2011 to inform you about the stored electronic wage tax deduction information ( ELStAM ).
+If you cannot find your IdNo in the documents mentioned above, you have the option of requesting it using the Federal Central Tax Office input form or by letter. Please understand that the IdNo can only be communicated to you through the mail for data protection reasons. The IdNo can be sent to an address that does not correspond to your registered address only with your written letter of authority (by letter and with a copy of a valid personal ID ).
+You can also submit your income tax return to your tax office without an IdNo . Your tax office is aware of this fact.
+
+New notification of your identification number
+The IdNo is permanently assigned to a person. The Federal Central Tax Office can only notify you of the IdNo you were already assigned.
+More
+
+General
+This identification number is assigned for the purpose of uniquely identifying a natural person in administrative proceedings. For example, the identification number enables the tax administration to provide services, such as a pre-filled tax return form provided on an electronic basis, or the automated processing of electronic receipts.
+The use of this and any data stored to this end are subject to purpose limitation in accordance with Section 139b of the German Fiscal Code ( AO ). Improper use constitutes an administrative offence for which a fine may be imposed.
+The data remains stored in the database until it is no longer required for the fulfilment of the underlying legal tasks. This will be deleted no later than 20 years after the end of the calendar year in which the person concerned died.
+The BZSt stores the following data for the identification number of a natural person in accordance with Section 139b (3) German Fiscal Code ( AO ):
+- Identification number
+- Business identification numbers
+- Last name
+- Former names
+- First name
+- Doctoral degree
+- Date and place of birth
+- Gender
+- Current or last known address
+- Competent tax authorities
+- Information blocks according to the Federal Registration Act (Bundesmeldegesetz)
+- Date of death
+- Day of move in/move out
+- Nationality
+- Date of last administrative contact (month, year)
+In addition, the BZSt stores the IBAN (and in the case of foreign credit institutions, also the BIC) of a natural person in accordance with Section 139b (10) German Fiscal Code ( AO ), in order to enable the non-cash payment of benefits from public funds, Section 139b (3a) German Fiscal Code ( AO ). More information can be found at https://www.bzst.de/ DE /Privatpersonen/IBAN/IBAN_node.html .
+For the purpose of providing employers with automatically retrievable wage tax deduction data, the BZSt also stores additional reporting data for each taxpayer in accordance with Section 39e (2) of the Income Tax Act ( EStG ). This concerns reporting data:
+- pertaining to religious affiliation
+- pertaining to a person’s marital status under registration law; in the case of married or partnered taxpayers, the identification number of the spouse / partner is also stored
+- pertaining to the identification numbers of minors, provided they are registered in the same municipality as the taxpayer.
+Sample notification letter (English) PDF, 479KB, File meet accessibility standards Sample notification letter (English)
+
+Sample notification letter (English)
+PDF, 479KB, File meet accessibility standards
+Sample notification letter (German) PDF, 53KB, File meet accessibility standards Sample notification letter (German)
+
+Sample notification letter (German)
+PDF, 53KB, File meet accessibility standards
+
+Downloads
+
+Informational brochure
+PDF, 397KB, File meet accessibility standards
+Informational brochure from the Federal Ministry of FinanceNationwide identification number for taxpayersProcedure as per Section 139b of the Fiscal Code
+
+General ruling
+PDF, 38KB, File meet accessibility standards
+General ruling of the Federal Ministry of Finance dated 22 July 2013
+
+Monthly report of the Federal Ministry of Finance
+PDF, 331KB, File meet accessibility standards
+Introducing the identification number for taxpayers
+
+Further Information
+
+Information for Registration Offices and Tax Offices
+Data for generating the electronic wage tax deduction information (Elektronische Lohnsteuerabzugsmerkmale, ELStAM ) is transmitted between registration offices and tax offices exclusively through the …
+
+Questions and answers
+There are many frequently asked questions regarding the use of the IdNo . In order to answer them quickly and transparently, we have compiled the most common questions and answers here.
+
+Related topics
+
+Transmission of your IBAN to the Federal Central Tax Office
+Information on submitting your IBAN to the Federal Central Tax Office and linking it to your identification number
+
+Capital income tax relief
+In Germany, income from capital is subject to a 25% withholding tax plus a solidarity surcharge of 5.5%. In general, this applies regardless of whether the recipient (creditor) of the domestic income …
+
+Tax return
+You want to file your tax return and still have questions? Here you will find information on who you can contact..
+
+Mutual agreement procedures
+Mutual agreement procedures are administrative procedures between two states which are subject to a request. They protect the taxpayer's right to be taxed in accordance with a double taxation agreement.
+
+Policyholder
+You have an insurance relationship with an insurer established outside the territory of the Member States of the European Union and the European Economic Area. You will find all the necessary …
+
+Source section: www.bzst.de
+Identifikationsnummer
+Deutschland folgt dem Beispiel vieler Nachbarn in der Europäischen Union und modernisiert sein kompliziertes und teures Steuersystem. Mit der Einführung der Identifikationsnummer ( IdNr ) möchten das Bundesministerium der Finanzen und die Bundesregierung das Besteuerungsverfahren vereinfachen und Bürokratie abbauen.
+Die IdNr wird die Steuernummer für den Bereich der Einkommensteuer langfristig ersetzen. Diese bleibt dauerhaft gültig und ändert sich auch nicht z. B. nach einem Umzug, nach einer Heirat oder nach der Änderung des Personenstandes.
+
+Themenbereiche
+
+Maschinelles Anfrageverfahren
+Um die Steuerverwaltung zu vereinfachen und die Bürger zu entlasten, werden steuerlich wichtige Daten elektronisch übermittelt. Erhalten Sie alle Informationen zu den notwendigen Formalitäten.
+
+Informationen für Meldebehörden und Finanzämter
+
+Informationen für Mitteilungsverpflichtete im Rahmen der Mitteilungsverordnung
+Behörden und andere öffentliche Stellen, die nach Mitteilungsverordnung verpflichtet sind, die steuerliche Identifikationsnummer für Zahlungen oder Verwaltungsakte zu erheben können diese- sofern eine …

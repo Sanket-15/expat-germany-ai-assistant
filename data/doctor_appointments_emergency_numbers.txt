@@ -1,0 +1,214 @@
+Title: Doctor Appointments and Emergency Numbers Germany
+Source: https://gesund.bund.de/en/choosing-a-doctor-and-finding-an-appointment
+Source: https://gesund.bund.de/en/notfallnummern
+Content:
+
+Source section: gesund.bund.de
+People who require medical treatment can select their own doctor. This is because the right to freely choose a doctor exists in Germany. This also applies when seeing a medical specialist. However, a referral can sometimes be needed for this.
+
+At a glance
+- Patients have the right to freely choose their doctors. Treatment is usually subject to the patient having a medical data card or other proof of insurance.
+- The right to freely choose a doctor also applies to specialist doctors. In some cases, however, a referral is required to see these.
+- Patients can obtain a referral from their general practitioner, for example.
+- Online portals and the appointment service centers of the Associations of Statutory Health Insurance Physicians (Kassenärztliche Vereinigungen) can help people find an appointment.
+- In acute cases outside of consulting hours, the non-emergency medical assistance service or the emergency services can provide assistance.
+
+What does the free choice of doctor mean?
+All patients have the right to choose their doctor. This applies to both people with statutory health insurance and people with private insurance, including in the case of dental and psychotherapeutic care services. However, members of the statutory health insurance providers can only choose doctors who have been approved by the health insurance provider as affiliated doctors. These are also referred to as health-insurance-provider-approved doctors.
+The free choice of doctor also includes hospital doctors that offer outpatient treatments – providing they have entered into an agreement with the health insurance providers in relation to such services. Outpatient means that people can go home following the treatment rather than having to stay the night in hospital. People with statutory health insurance can only attend private practices in emergencies.
+Important : You are not usually able to choose your own doctor during hospital stay. You can freely choose the hospital but must then be treated by the doctor who is on duty.
+Further restrictions to the free choice of doctor apply in the event of occupational accidents. In this case, you must initially visit an accident insurance doctor (D-doctor) so that the cost of any treatment can be settled via the statutory accident insurance. Accident insurance doctors are doctors who have been specially approved by the German Employers’ Liability Insurance Associations (“Berufsgenossenschaften”).
+In the event of medical or psychotherapeutic treatment, you must always present your electronic medical data card (eGK) or other proof of insurance (e.g. a treatment certificate). These enable the costs to be settled with the health insurance providers or other cost bearers. People with private insurance have to initially settle the bill for the doctor’s visit themselves before later having the costs reimbursed by their insurance provider.
+
+When should I visit my general practitioner and when should I see a specialist?
+The right to freely choose a doctor generally also applies to specialists. Aside from a few exceptions, patients can find a specialist directly without needing a medical referral.
+For many people, however, the general practitioner is the first point of call for health problems. Ideally, general practitioners will have known their patients for a while and be familiar with their medical history. In the case of specific problems, they can determine whether specialists should be consulted. General practitioners provide specialist referrals
+- if a specialist is needed to provide a certain service (contracted service), such as x-ray scans.
+- if a specialist needs to perform additional examinations (consultative examinations) in relation to a tentative diagnosis.
+- if another doctor should be involved in the treatment or take over the treatment entirely (co-treatment or further treatment).
+The general practitioner should coordinate the examinations and help avoid unnecessary duplicate examinations. As such, general practitioners take on the role of “pilot” within the healthcare system. If you take several types of medication that have been prescribed by different doctors, a general practitioner can help to ensure the medication’s compatibility and prevent interactions.
+Important : If a patient has agreed on a general practitioner tariff (“Hausarzttarif”) with the statutory health insurance provider, the freedom of choice in relation to appointments with specialists is restricted. This tariff involves entering into a voluntary agreement with the health insurance provider to always visit a general practitioner first and has financial benefits for the patients.
+
+When do I need a specialist referral?
+People with statutory health insurance require a referral from their doctor for appointments with certain specialists. Doctors who specialize in laboratory medicine, radiology, radiotherapy, transfusion medicine, microbiology, nuclear medicine and pathology can solely be consulted upon referral. Referrals are usually also required for outpatient treatment in hospitals.
+Good to know : If you want to find out for certain whether you need a referral for an appointment with a medical practice, ask the practice in advance.
+Referrals can also be needed if specialists believe that an examination or treatment type is needed that falls outside their specialist areas, i.e. from other specialists. For example, if orthopedic specialists need magnetic resonance imaging (MRI) scans of a knee, they will issue a referral for radiology.
+
+Referral validity
+Although issued for the current quarterly period (quarter), medical referrals are valid across quarters. In other words, even if the treatment by a specialist only starts during the next quarter, no new referral is required. Presenting the electronic medical data card suffices. If the treatment by the specialist lasts for longer than a quarter, the initial referral can also be used across multiple quarters.
+
+How can I get a doctor’s appointment quickly?
+In the case of specialists in particular, it can sometimes be hard to get an appointment quickly. The following services can help you find a doctor’s appointment:
+Online doctor search: use the gesund.bund.de doctor search to find doctors and psychotherapists in your area.
+Dentist search: the Association of Statutory Health Insurance Dentists (Kassenzahnärztliche Bundesvereinigung – KZBV) provides a useful search function that can help you find a dentist.
+Another option for urgent cases is that of open consultation hours: specialists who are classed as offering primary care for patients are usually obliged to offer at least five open consultation hours per week. These include specialists in the following disciplines:
+- Ophthalmology
+- Surgery
+- Gynecology
+- Otorhinolaryngology
+- Dermatology (skin disorders)
+- Pediatric and adolescent psychiatry
+- Neurology
+- Neurosurgery
+- Orthopedics
+- Psychiatry
+- Urology
+No appointment is needed for these consultation hours.
+
+Appointment service
+Anyone who receives a referral with an arrangement code (Vermittlungscode) or referral code (Überweisungscode) – also known as an urgency code (Dringlichkeitscode) – can use the regional appointment service centers provided by the Associations of Statutory Health Insurance Physicians (Kassenärztlichen Vereinigungen). The service centers act on behalf of people with statutory insurance by arranging appointments for them with specialists as well as for psychotherapeutic consultations and, in the event of a confirmed need for treatment, appointments for acute psychotherapeutic treatment.
+Appointments for psychotherapeutic consultations as well as with gynecologists and eye specialists are also arranged without referrals. The appointment service centers also help people to find pediatric doctors and general practitioners – again without a referral. It is not possible to arrange appointments with specific doctors via these centers. The appointments are arranged on the basis of a set area search.
+The appointment service centers have up to a week to arrange an appointment within four weeks. Patients should not have to wait more than two weeks for appointments for acute psychotherapeutic treatments. If it is not possible to arrange an appointment, patients should be offered an outpatient treatment appointment in a hospital.
+Appointments can be arranged with the appointment service centers by calling 116 117 or online via the e-appointment service provided by the Associations of Statutory Health Insurance Physicians . The twelve-digit arrangement code must be provided when arranging the appointment.
+Good to know : You can also ask your health insurance provider if it offers an appointment arrangement service.
+
+Can practices simply reject patients?
+Doctors who can treat people with statutory insurance and who are therefore approved as affiliated doctors have a duty to provide treatment. However, treatment can be declined for valid reasons – providing it is not an emergency. Examples of such reasons include treatment capacities having been exceeded or the relationship of trust between the doctor patient having been destroyed. The latter can be the case, for example, if the patient does not follow medical instructions or abuses practice personnel. Patients who do not present a medical data card can also be rejected. However, emergencies must always be treated.
+
+Where can I get help outside consultation hours?
+The non-emergency medical assistance service is responsible for situations in which you would usually visit your medical practice but treatment cannot wait until the next day for medical reasons. The addresses of non-emergency medical assistance practices in your area can be obtained at night or at the weekend by calling 116 117. Alternatively, the hotline staff will send a doctor to your home.
+Non-emergency medical assistance practices near you can also be found online using the search function provided by the non-emergency medical assistance service of the National Association of Statutory Health Insurance Providers (Kassenärztliche Bundesvereinigung) .
+Hospital emergency departments are not responsible for such situations. They should only be used in the event of genuine emergencies.
+
+Where should I go in an emergency?
+In the event of a sudden onset of severe pain or life-threatening situations, you should immediately call an ambulance on 112 or make your own way to a hospital emergency department. Examples of emergencies include:
+- severe chest or stomach pain
+- severe shortage of breath
+- heavy bleeding or severe burns
+- reduced consciousness or loss of consciousness
+- bone fractures
+- allergic (anaphylactic) shock
+- slurred speech
+- paralysis
+- sudden complications during pregnancy
+People can sometimes be unsure whether to go to the emergency department. In such situations, it is advisable to call the non-emergency medical assistance service on 116 117 to clarify the best course of action.
+Important : If it is not an emergency, a general practitioner or specialist will decide whether hospital treatment is required and issue a referral.
+Full information on points of contact in emergencies can be found in the overview of numbers to call in the event of an emergency .
+- Bundesministerium der Justiz. Sozialgesetzbuch (SGB) Fünftes Buch (V) - Gesetzliche Krankenversicherung - (Artikel 1 des Gesetzes v. 20. Dezember 1988, BGBl. I S. 2477) § 76 Freie Arztwahl . Aufgerufen am 05.09.2022.
+- Bundesärztekammer. Empfehlungen für einen Indikationskatalog für den Notarzteinsatz . Aufgerufen am 06.05.2025.
+- Bundesministerium für Gesundheit. Freie Arztwahl . Aufgerufen am 05.09.2022.
+- Becker U, Kingreen T. SGB V. Gesetzliche Krankenversicherung. Kommentar. 8. Auflage 2022. C.H. Beck.
+- Bundesministerium für Gesundheit. Hausarztsystem . Aufgerufen am 05.09.2022.
+- Institut für Qualität und Wirtschaftlichkeit im Gesundheitswesen (IQWiG). Gesundheitsversorgung in Deutschland . Aufgerufen am 13.12.2023.
+- Kassenärztliche Vereinigung Bayerns. Informationen zum Thema Überweisungen . Aufgerufen am 05.09.2022.
+- Kassenärztliche Bundesvereinigung (KBV). Terminservice- und Versorgungsgesetz . Aufgerufen am 05.09.2022.
+- Kassenärztliche Vereinigung Berlin. Wer ist verpflichtet, offene Sprechstunden anzubieten? Aufgerufen am 05.09.2022.
+- Plagemann H. Münchener Anwaltshandbuch Sozialrecht. 5. Auflage 2018.
+- Rademacker O in: Kasseler Kommentar Sozialversicherungsrecht SGB V, § 75. Werkstand: 118. EL März 2022.
+In cooperation with the Independent Patient Advice Service for Germany (Unabhängige Patientenberatung Deutschland gGmbH – UPD).
+
+Get informed Recommended articles
+
+Telemedicine house call
+Telemedicine house calls are conducted by specially trained healthcare assistants rather than by doctors. Doctors can be contacted by video call if required.
+Find out more
+
+The right to information and informed consent
+Patients have the right to receive all key information from their doctor with regard to the diagnosis of an illness, the expected outlook and the treatment.
+
+Source section: gesund.bund.de
+Emergencies catch most people unprepared. This overview explains who can help with urgent health problems, acute crises and poisoning. Depending on the urgency and nature of the problem you can call the emergency services, non-emergency medical assistance, help and crisis lines or a poison control center.
+
+At a glance
+- There are various hotlines and helplines for medical or mental health emergencies.
+- Call the emergency services if the situation is life-threatening or there is a risk of permanent damage.
+- The non-emergency medical assistance line should be called in urgent but non-life-threatening situations when the medical practice is closed.
+- The Telefonseelsorge (German telephone helpline) is a potential point of contact for people with urgent psychological problems. There are many other crisis helplines in the various regions.
+- In the case of poisoning call the poison control center; if the situation is life-threatening, call the emergency services on 112 .
+
+When should I call the emergency number?
+Telephone: 112 Fax: 112 NORA emergency call app
+You should only call the emergency number if the situation is life-threatening or there is a risk of permanent damage.The emergency service will then send you an ambulance or emergency doctor ambulance.
+The emergency service can be called round the clock by dialing the number (no need for a code) from a land line, cell phone or emergency phone. The call is free.
+Use it, for example, following
+- a heart attack or signs of a heart attack (chest pain, breathlessness, cold sweats)
+- a stroke or signs of a stroke (visual impairment, slurred speech, paralysis)
+- accidents involving serious injuries
+- significant blood loss
+- loss of consciousness (fainting) or impaired consciousness
+- an allergic (anaphylactic) shock
+- severe pain
+- severe burns
+- breathlessness and severe asthma attacks
+Important: If you are unsure whether the situation is life-threatening, call the emergency number.
+
+Emergency call by app
+Since Autumn 2021, it has been possible to make an emergency call nationwide using the NORA emergency call app. You can use the app like a messenger service to communicate by text with the local emergency services.
+Your location is automatically transmitted when you make the emergency call. However you can also change location yourself, for example if the accident happened at a different location.
+The NORA app is the official emergency call app for the federal states . It is free to download from app stores.
+The NORA emergency call app can also be used as an alternative to the emergency fax number to make it easier for people with hearing or speech and language impairments to contact the emergency services. You can also send a fax or use a Tess relay service .
+
+When should I call the non-emergency medical assistance service?
+Telephone: 116 117 Fax: 0800 – 58 95 210 “Non-emergency medical assistance” fax form for people with hearing and speech or language impairments
+The non-emergency medical assistance service helps people with urgent medical problems outside of medical practice consulting hours. It is intended for patients who do not have a life-threatening condition but cannot wait until the practice opens.
+- common cold or flu with a high temperature and pain
+- severe sore throat or earache
+- gastrointestinal infections with persistent diarrhea with vomiting
+- acute abdominal pain, back pain or headaches
+The non-emergency medical assistance service will advise you on how to proceed and inform you of practices you can consult if your medical practice is closed. If necessary, you can have a house visit from the non-emergency medical assistance service.
+The employees on the non-emergency medical assistance hotline are medically trained and can assess how urgent your problem is. However, if it is an emergency they will forward your call directly to the emergency service.
+Important: During consulting hours it is best to contact your medical practice first; use the non-emergency medical assistance at night-time, at weekends and on public holidays. Hospital emergency departments are not the right place to go in these cases – they are reserved for emergencies.
+The non-emergency medical assistance service is for patients with statutory and private health insurance. The costs are covered by statutory health insurance. For private patients this will depend on the contract and deductible.
+
+On-call practices
+Many cities and local authorities have on-call practices that patients can consult outside consulting hours, at night-time and on Sundays and holidays.
+They are also called standby practices, emergency medical assistance or out-of-hours practices. Some are located in hospital clinics.
+Some on-call practices cover a specific medical specialty such as children and adolescents, gynecology or ophthalmology.
+You can find on-call practices in your area on the website of the National Association of Statutory Health Insurance Providers (Kassenärztliche Bundesvereinigung) .
+
+Out-of-hours dental service
+You can find out-of-hours dental practices in your area in an overview provided by the National Association of Statutory Health Insurance Providers (Kassenärztliche Bundesvereinigung) .
+
+Who should I call in cases of poisoning?
+The poison control centers are run by the federal states and provide emergency advice by telephone on cases of human poisoning.
+If you or your children have accidentally ingested medicines, household products or potentially poisonous plants, the poison control center will give you advice on what to do and whether further medical treatment is required.
+If the situation is life-threatening, please call the emergency number 112 immediately.
+The poison control centers are contactable 24 hours a day.
+For the telephone and fax numbers for your local poison control center, visit the website of the Federal Office of Consumer Protection and Food Safety (BVL).
+
+What points of contact are available for help with urgent mental health problems?
+“Telefonseelsorge”: 116 123 “E-Mail- und Chatseelsorge”: online.telefonseelsorge.de
+If you are having mental health problems, are in a crisis or are thinking of self-harming or taking your own life, you can contact the Telefonseelsorge (German telephone helpline).
+Its psychologically trained employees will give you free, anonymous advice on a number of issues troubling you, for instance problems with your marriage or partnership, loneliness, anxiety, a crisis of identity or sickness. This advice is only provided in Germany.
+
+Other languages
+There are also mental health helplines in other languages in Germany
+“Mutes” is a Muslim mental health helpline (muslimische Telefonseelsorge) that provides advice in Turkish, Arabic and Urdu. Telephone: 030 – 44 35 09 821
+Doverija is a mental health helpline that provides advice in Russian. Telephone: 030 – 440 308 454
+Telefonseelsorge provides an overview with telephone-based assistance in other languages.
+
+Psychological support for children and adolescents
+“Nummer gegen Kummer”: 116 111 “E-Mail- und Chatseelsorge”: www.nummergegenkummer.de/kinder-und-jugendberatung/online-beratung/ “Elterntelefon” (parents’ helpline): 0800 – 111 0 550
+The “Nummer gegen Kummer” helpline for children and adolescents is a point of contact for children and adolescents with worries and problems. Its psychologically trained employees provide free, anonymous advice. They will listen sympathetically to any concerns, whether it is stress with parents, friends or schoolmates, relationship problems, problems at school, violence or anything else that is troubling the caller.
+
+Crisis services/social psychiatric services and specialist crisis helplines
+Crisis services/social psychiatric services provide professional consultations in psychiatric and psychological emergencies.
+You can find out about these regional consultation services, for example, from the city and local authority administrations.
+There are also various specialist help and crisis lines, for example for parents, pregnant women or family caregivers.
+The Federal Family Ministry’s Family Portal provides an overview of crisis lines and contact points for emergencies.
+
+App-based psychological support
+The Telefonseelsorge’s “KrisenKompass” app provides materials, techniques and contacts that can help in crisis situations. The app can also be used offline so it can provide support at the right moment.
+More information is available on the Telefonseelsorge’s website.
+
+How do I find an out-of-hours pharmacy?
+Out-of-hours pharmacies are also open at night-time, on Sundays and holidays.
+You can find an out-of-hours pharmacy in your area on the website of the Federal Union of German Associations of Pharmacists (Bundesvereinigung Deutscher Apothekerverbände) .
+
+Who do I call if I have a medical emergency abroad?
+Calls made to 112 within the European Union will be directed to the national emergency services.
+Calls made to 112 from a cell phone will also be forwarded to the emergency services in some countries outside Europe.
+You can reach the non-emergency medical assistance even if you are outside Germany by dialing 0049 116 117 .
+You can reach the Telefonseelsorge from outside Germany using a cell phone with a German SIM card, by Internet telephony or the Telefonseelsorge’s online service.
+
+Get informed Recommended articles
+
+First aid – be brave and take action
+What should I do first if I find someone unconscious? And how should I react as a first aider at the scene of an accident? Here you will find answers to questions about first aid.
+Find out more
+
+First aid for poisoning
+Urgent action is required if poisoning is suspected. This article explains the signs of poisoning and what first aid measures can be taken when it happens.
+
+First aid for children
+This article explains what to do and how to provide first aid if a child has a fall, is choking or suffers a burn.
