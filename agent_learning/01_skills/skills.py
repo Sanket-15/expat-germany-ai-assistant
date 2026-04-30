@@ -94,8 +94,9 @@ def classify_intent_mock(user_query: str) -> dict:
     """Classify the user query into a simple intent label."""
     # Represents the first step an agent might take before choosing a tool.
     text = user_query.lower()
+    words = set(text.replace(".", " ").replace("?", " ").replace(":", " ").split())
 
-    if any(word in text for word in ("hi", "hello", "hallo", "thanks", "danke")):
+    if any(word in words for word in ("hi", "hello", "hallo", "thanks", "danke")):
         intent = "small_talk"
     elif any(word in text for word in ("translate", "übersetze")):
         intent = "translation"
